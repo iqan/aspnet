@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Message</h2>
+<p>
+    Click Here To @Html.ActionLink("Log In", "LogOn", "Account")
+</p>
+
+<div>
+    @RenderPage("About.cshtml")
+</div>
